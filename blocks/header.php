@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header__warning">
     <div class="container">
-      <strong>WARNING:</strong> MINORS are prohibited from buying e-cigarette.
+      <strong>WARNING:</strong> MINORS are prohibited from buying e-cigarettes.
     </div>
   </div>
 

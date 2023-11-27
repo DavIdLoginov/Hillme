@@ -173,6 +173,8 @@ const partnersAsideSwiper = new Swiper('.partners-aside .swiper', {
 
 const partnersAsideGlobalBtn = document.querySelector('.partners-aside__global-btn');
 const partnersAsideMapDotts = document.querySelectorAll('.partners-aside__map-dott, .partners-aside__global-text a');
+const partnersAsideMap = document.querySelectorAll('.partners-aside__map-dott');
+const partnersAsideLI = document.querySelectorAll('.partners-aside__map > ul > li');
 const partnersAsideListLinks = document.querySelectorAll('.partners-aside__list a');
 const partnersAsideContactsSections = document.querySelectorAll('.partners-aside__contacts-section');
 
@@ -182,6 +184,23 @@ if(partnersAsideGlobalBtn){
     partnersAsideSwiper.slideNext();
   });
 }
+
+partnersAsideMap.forEach(dott => {
+  dott.addEventListener('mouseover', e => {
+    let tooltip = document.createElement('div');
+    tooltip.textContent = dott.textContent;
+    tooltip.classList.add('tooltip'); // Добавляем класс для стилизации
+
+    // tooltip.style.top = `${rect.top - tooltip.offsetHeight}px`;
+    // tooltip.style.left = `${rect.left}px`;
+
+    document.body.appendChild(tooltip);
+    // dott.addEventListener('mouseout', () => {
+    //   tooltip.remove();
+    // });
+  });
+});
+
 
 partnersAsideMapDotts.forEach(dott => {
   dott.addEventListener('click', e => {

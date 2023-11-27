@@ -21,12 +21,12 @@
 						
 						<div class="aside aside_about">
 							<div class="aside__item">
-								<div class="aside__item-title">5 <small>year</small></div>
+								<div class="aside__item-title">5 <small>years</small></div>
 								<div class="aside__item-text">Professional product development and production</div>
 							</div>
 
 							<div class="aside__item">
-								<div class="aside__item-title">100+ <small>kind</small></div>
+								<div class="aside__item-title">100+</div>
 								<div class="aside__item-text">Product specificatons for your choice</div>
 							</div>
 

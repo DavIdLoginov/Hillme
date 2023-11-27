@@ -59,35 +59,32 @@
 											<div class="partners-aside__slider-item swiper-slide" id="global-partnership">
 												<h2 class="partners-aside__title">Global Partners</h2>
 
-												<!--
+												
 												<div class="partners-aside__global">
 													<div class="partners-aside__global-item">
 														<div class="partners-aside__global-title">Research and development center</div>
 														<div class="partners-aside__global-text">
-															<a href="#greater-china-contacts">China</a> /
-															<a href="#south-america-contacts">America</a> /
-															<a href="#europe-uk-contacts">Europe</a>
+															<a href="#greater-china-contacts">China</a>
 														</div>
 													</div>
 
 													<div class="partners-aside__global-item">
 														<div class="partners-aside__global-title">The global business</div>
 														<div class="partners-aside__global-text">
-															<a href="#global-contacts">More than 70 countries and regions</a>
+															<a href="#global-contacts">More than 20 countries and regions</a>
 														</div>
 													</div>
 
 													<div class="partners-aside__global-item">
 														<div class="partners-aside__global-title">Strategic partner</div>
 														<div class="partners-aside__global-text">
-															<a href="#south-america-contacts">America</a> / 
-															<a href="#europe-uk-contacts">Europe</a> / 
+														  <a href="#CIS-contacts">CIS</a> /
 															<a href="#asia-contacts">Asia</a> / 
 															<a href="#europe-uk-contacts">UK</a>
 														</div>
 													</div>
 												</div>
-												-->
+												
 
 												<div class="partners-aside__map">
 													<div class="partners-aside__map-img">
@@ -115,6 +112,7 @@
 														<li><a href="#middle-east-contacts">Middle East</a></li>
 														<li><a href="#europe-uk-contacts">Europe and UK</a></li>
 														<li><a href="#asia-contacts">Asia</a></li>
+														<li><a href="#CIS-contacts">CIS</a></li>
 														<li><a href="#africa-contacts">Africa</a></li>
 													</ul>
 												</div>
@@ -252,6 +250,8 @@
 													<div class="partners-aside__contacts-section" id="europe-uk-contacts"></div>
 
 													<div class="partners-aside__contacts-section" id="asia-contacts"></div>
+
+													<!-- <div class="partners-aside__contacts-section" id="CIS-contacts"></div> -->
 
 													<div class="partners-aside__contacts-section" id="africa-contacts"></div>
 												</div>

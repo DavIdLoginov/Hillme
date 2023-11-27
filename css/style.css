@@ -2807,3 +2807,11 @@ input.product-verification__input::placeholder {
 .swiper-slide-thumb-active .product-thumb__blur {
   opacity: .7;
 }
+
+.tooltip {
+  display: inline-block;
+  width: max-content;
+  padding: 8px;
+  height: 20px;
+  background-color: red;
+}

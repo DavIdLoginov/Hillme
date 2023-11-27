@@ -9,7 +9,7 @@
 				<div class="row">
 					<div class="col-lg-1 order-lg-1">
 						<div class="page-name">
-							<div class="page-name__inner">FEEDBACK</div>
+							<div class="page-name__inner" style="margin-top: 135px">FEEDBACK</div>
 						</div>
 					</div>
 
