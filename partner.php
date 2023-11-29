@@ -297,7 +297,7 @@
 										<div class="form-group">
 											<label class="form-label"><span class="color-red">*</span> Email</label>
 											<div class="form-field">
-												<input type="email" class="form-control" name="email" value="ABc1234567@gmail.com" required placeholder="Enter your email...">
+												<input type="email" class="form-control" name="email" value="" required placeholder="Enter your email...">
 											</div>
 										</div>
 									</div>

@@ -21,17 +21,12 @@
 
 						<div class="aside aside_contacts">
 							<div class="aside__item">
-								<div class="aside__item-title">Address:</div>
+								<div class="aside__item-title">OFFICE CONTACTS:</div>
 								<div class="aside__item-text"><strong>+861881095851</strong></div>
 							</div>
 
 							<div class="aside__item">
-								<div class="aside__item-title">Telephone:</div>
-								<div class="aside__item-text"><strong>+861881095851</strong></div>
-							</div>
-
-							<div class="aside__item">
-								<div class="aside__item-title">Emails:</div>
+								<div class="aside__item-title">EMAIL:</div>
 								<div class="aside__item-text">
 									<strong>Marketing E-mail:</strong>
 									<span>@861881095851</span>
@@ -41,6 +36,12 @@
 									<span>@861881095851</span>
 								</div>
 							</div>
+
+							<div class="aside__item">
+								<div class="aside__item-title">ADDRES:</div>
+								<div class="aside__item-text"><strong>+861881095851</strong></div>
+							</div>
+
 						</div>
 					</div>
 
@@ -70,7 +71,7 @@
 								<div class="form-group">
 									<label class="form-label">Email</label>
 									<div class="form-field">
-										<input type="email" class="form-control" name="email" value="ABc1234567@gmail.com" placeholder="Enter your email...">
+										<input type="email" class="form-control" name="email" value="" placeholder="Enter your email...">
 									</div>
 								</div>
 
