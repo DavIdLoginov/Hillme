@@ -184,20 +184,33 @@ if(partnersAsideGlobalBtn){
     partnersAsideSwiper.slideNext();
   });
 }
+//Global Partners Map functional
 
 partnersAsideMap.forEach(dott => {
-  dott.addEventListener('mouseover', e => {
-    let tooltip = document.createElement('div');
-    tooltip.textContent = dott.textContent;
-    tooltip.classList.add('tooltip'); // Добавляем класс для стилизации
+  
+  dott.setAttribute('data-tooltip', dott.textContent);
+  
+  dott.addEventListener('mouseenter', () => {
+    partnersAsideMap.forEach(otherDott => {
+      if (otherDott !== dott) {
+        otherDott.style.opacity = '0';
+        otherDott.style.setProperty('opacity', '0')
+      }
+    });
+  });
 
-    // tooltip.style.top = `${rect.top - tooltip.offsetHeight}px`;
-    // tooltip.style.left = `${rect.left}px`;
+  dott.addEventListener('mouseleave', () => {
+    partnersAsideMap.forEach(otherDott => {
+      otherDott.style.setProperty('opacity', '1')
+      otherDott.style.opacity = '1';
+    });
+  });
 
-    document.body.appendChild(tooltip);
-    // dott.addEventListener('mouseout', () => {
-    //   tooltip.remove();
-    // });
+  dott.addEventListener('click', e => {
+    e.preventDefault();
+    const partnersAsideListLink = Array.from(partnersAsideListLinks).find(link => link.getAttribute('href') === dott.getAttribute('href'));
+    partnersAsideListLink.click();
+    partnersAsideSwiper.slideNext();
   });
 });
 

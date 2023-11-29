@@ -2808,10 +2808,18 @@ input.product-verification__input::placeholder {
   opacity: .7;
 }
 
-.tooltip {
-  display: inline-block;
-  width: max-content;
-  padding: 8px;
-  height: 20px;
-  background-color: red;
+.partners-aside__map-dott {
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #9E37FF;
+  color: #000;
+  transition: 0.3s;
 }
+
+.partners-aside__map-dott:hover::before {
+  content: attr(data-tooltip); 
+  display: block;
+  color: #000;
+  margin-left: -20px;
+}
+
