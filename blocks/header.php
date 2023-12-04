@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header__warning">
     <div class="container">
-      <strong>WARNING:</strong> MINORS are prohibited from buying e-cigarettes.
+      <strong>WARNING:</strong> Minors are prohibited from buying e-cigarettes.
     </div>
   </div>
 
@@ -23,19 +23,22 @@
                 <nav class="nav">
                   <ul>
                     <li>
-                      <a href="index.php"<?= $page === 'home' ? ' class="is-active"' : ''; ?>>Home</a>
+                      <a href="index.php" <?= $page === 'home' ? ' class="is-active"' : ''; ?>>Home</a>
                     </li>
                     <li>
-                      <a href="products-classic.php"<?= $page === 'products' ? ' class="is-active"' : ''; ?>>Products</a>
+                      <a href="products-classic.php" <?= $page === 'products' ? ' class="is-active"' : ''; ?>>Products</a>
                     </li>
                     <li>
-                      <a href="about.php"<?= $page === 'about' ? ' class="is-active"' : ''; ?>>About us</a>
+                      <a href="about.php" <?= $page === 'about' ? ' class="is-active"' : ''; ?>>About us</a>
                     </li>
                     <li>
-                      <a href="partner.php"<?= $page === 'partner' ? ' class="is-active"' : ''; ?>>Become a partner</a>
+                      <a href="partner.php" <?= $page === 'partner' ? ' class="is-active"' : ''; ?>>Become a partner</a>
                     </li>
                     <li>
-                      <a href="contacts.php"<?= $page === 'contacts' ? ' class="is-active"' : ''; ?>>Contacts</a>
+                      <a href="contacts.php" <?= $page === 'contacts' ? ' class="is-active"' : ''; ?>>Contacts</a>
+                    </li>
+                    <li>
+                      <a href="verify.php" <?= $page === 'verify' ? ' class="is-active"' : ''; ?>>Verify</a>
                     </li>
                   </ul>
                 </nav>
@@ -46,14 +49,14 @@
 
         <div class="header__search">
           <div class="search">
-            <form class="search__form">
+            <!-- <form class="search__form">
               <div class="search__wrapper">
                 <input type="text" class="search__input form-control" name="search" required placeholder="Enter keywords">
                 <button type="submit" class="search__btn">
                   <svg class="icon" width="21" height="21"><use xlink:href="#icon-search"></use></svg>
                 </button>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
 
