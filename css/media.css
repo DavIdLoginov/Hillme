@@ -381,6 +381,11 @@
 }
 
 @media (max-width: 1199.98px) {
+  
+  .header__search {
+    width: 130px;
+  }
+
   .main-card__image {
     right: 15px;
     bottom: 60px;
@@ -565,10 +570,6 @@
 
   .menu-btn:after {
     transform: translateY(8px);
-  }
-
-  .menu-popup {
-
   }
 
   .menu-popup__bg {
