@@ -330,7 +330,7 @@
 									<div class="form-textarea">
 										<div class="form-textarea__bg"></div>
 										<label class="form-textarea__content">
-											<textarea class="form-control" name="message" rows="5" placeholder="leave a message for us..."></textarea>
+											<textarea class="form-control" name="message" rows="5" placeholder="Leave a message for us..."></textarea>
 										</label>
 										<div class="form-textarea__footer">
 											<button type="submit" class="btn">submit</button>

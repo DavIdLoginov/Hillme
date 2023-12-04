@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__inner">
-      <div class="footer__aside">
+      <!-- <div class="footer__aside">
         <div class="product-verification" id="verify">
           <div class="product-verification__title">Product verification</div>
           <div class="product-verification__text">Hillme Product Verification Center Enter or paste the security code</div>
@@ -19,7 +19,7 @@
 
           <div class="product-verification__footer">Copyright 2023 INTERNATIONAL,INC.</div>
         </div>
-      </div>
+      </div> -->
 
       <div class="footer__content">
         <div class="row">
@@ -42,8 +42,8 @@
                   <div class="footer__section-title">Contact Us</div>
                   <div class="footer__contacts">
                     <ul>
-                      <li>Phone: +861881095851</li>
-                      <li>Email: @861881095851</li>
+                      <li>Phone: +8618801469346</li>
+                      <li>Email: wholesale@hillmeawis.com</li>
                       <li>Monday-Friday GMT+8</li>
                       <li>9:00am-12:00am,<br> 1:30pm-6:00pm</li>
                     </ul>
@@ -79,10 +79,10 @@
           <div class="col-md-auto">
             <div class="footer__qr">
               <div class="footer__qr-item">
-                <img src="images/qr.png" alt="">
+                <img src="images/QRcode/qrwhatsapp-contact.png" alt="">
               </div>
               <div class="footer__qr-item">
-                <img src="images/qr.png" alt="">
+                <img src="images/QRcode/qrcode-contact.png" alt="">
               </div>
             </div>
           </div>
