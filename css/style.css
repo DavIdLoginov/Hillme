@@ -2857,3 +2857,7 @@ input.product-verification__input::placeholder {
 .verify__cont > .text {
   text-align: center;
 }
+
+.product__img-rotate {
+  transform: rotate(338deg);
+}

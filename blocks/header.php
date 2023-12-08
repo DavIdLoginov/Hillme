@@ -26,7 +26,7 @@
                       <a href="index.php" <?= $page === 'home' ? ' class="is-active"' : ''; ?>>Home</a>
                     </li>
                     <li>
-                      <a href="products-classic.php" <?= $page === 'products' ? ' class="is-active"' : ''; ?>>Products</a>
+                      <a href="products-xstar.php" <?= $page === 'products' ? ' class="is-active"' : ''; ?>>Products</a>
                     </li>
                     <li>
                       <a href="about.php" <?= $page === 'about' ? ' class="is-active"' : ''; ?>>About us</a>

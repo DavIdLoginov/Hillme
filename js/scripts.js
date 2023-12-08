@@ -120,45 +120,60 @@ exhibitionMapDotts.forEach(dott => {
 
 
 /* Products slider */
-const product = document.querySelector('.product');
-if(product){
-  setTimeout(function(){
-    product.classList.add('is-ready');
+const productSlider = document.querySelector('.product__slider .swiper-wrapper');
+const productThumbsSlider = document.querySelector('.product__thumbs-slider .swiper-wrapper');
+
+if (productSlider && productThumbsSlider) {
+  const product = document.querySelector('.product');
+  if(product){
+    setTimeout(function(){
+      product.classList.add('is-ready');
+    }, 100);
+  }
+  setTimeout(function () {
+    const productSlidesCount = productSlider.querySelectorAll('.product__slider-item').length;
+
+    var slidesToShow = 4; // По умолчанию отображаем 3 элемента
+    if (productSlidesCount > 3) {
+      slidesToShow = 4;
+    }
+
+    var productThumbsSwiper = new Swiper('.product__thumbs-slider .swiper', {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      pagination: {
+        el: '.product__thumbs-slider .swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: slidesToShow, // Используем slidesToShow
+          slidesPerGroup: 3,
+        },
+      },
+    });
+
+    var productSwiper = new Swiper('.product__slider .swiper', {
+      loop: true,
+      autoHeight: true,
+      watchSlidesProgress: true,
+      hashNavigation: {
+        watchState: true,
+      },
+      effect: 'fade',
+      speed: 1000,
+      fadeEffect: {
+        crossFade: true
+      },
+      thumbs: {
+        swiper: productThumbsSwiper,
+      },
+    });
   }, 100);
 }
-
-var productThumbsSwiper = new Swiper('.product__thumbs-slider .swiper', {
-  slidesPerView: 2,
-  slidesPerGroup: 2,
-  pagination: {
-    el: '.product__thumbs-slider .swiper-pagination',
-    clickable: true,
-  },
-  breakpoints: {
-    576: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-    },
-  },
-});
-
-var productSwiper = new Swiper('.product__slider .swiper', {
-  loop: true,
-  autoHeight: true,
-  watchSlidesProgress: true,
-  hashNavigation: {
-    watchState: true,
-  },
-  effect: 'fade',
-  speed: 1000,
-  fadeEffect: {
-    crossFade: true
-  },
-  thumbs: {
-    swiper: productThumbsSwiper,
-  },
-});
 /* ! Products slider */
+
+
 
 
 /* Become a partner sidebar */

@@ -13,14 +13,11 @@
 
 				<div class="breadcrumbs">
 					<ul>
-						<li><a href="products-classic.php">Classic</a></li>
-						<li><a href="products-cyber.php">Cyber</a></li>
-						<li><a href="products-galaxy.php">Galaxy</a></li>
-						<li><a href="products-xstar.php">Xstar</a></li>
+					<li><a href="products-xstar.php">Xstar</a></li>
 						<li><a href="products-lux.php" class="is-active">Lux Pod</a></li>
-						<li><a href="products-bullet.php">Bullet</a></li>
-						<li><a href="products-moon.php">Moon</a></li>
-						<li><a href="products-air.php">Air</a></li>
+						<li><a href="products-galaxy.php">Galaxy</a></li>
+						<li><a href="products-cyber.php">Cyber</a></li>
+						<li><a href="products-bar.php">Bar</a></li>
 					</ul>
 				</div>
 
@@ -65,9 +62,9 @@
 														<div class="product-image__circle"></div>
 														<div class="product-image__main">
 															<div class="product-image__blur">
-																<img src="images/products/LuxPod6500.png" />
+																<img src="images/products/luxpod/luxPod6500.png" />
 															</div>
-															<img src="images/products/LuxPod6500.png" />
+															<img src="images/products/luxpod/luxPod6500.png" class="product__img-rotate"/>
 														</div>
 													</div>
 												</div>
@@ -90,9 +87,9 @@
 										<div class="product-thumb">
 											<div class="product-thumb__image">
 												<div class="product-thumb__blur">
-													<img src="images/products/LuxPod6500_thumb.png" />
+													<img src="images/products/luxpod/luxPod6500.png" />
 												</div>
-												<img src="images/products/LuxPod6500_thumb.png" />
+												<img src="images/products/luxpod/luxPod6500.png" />
 											</div>
 											<div class="product-thumb__title">Lux Pod 6500</div>
 										</div>
